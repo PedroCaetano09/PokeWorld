@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon_atoms.ico" type="image/x-icon">
+    <title>PokeWorld Adventure Park</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="WhatsApp Image 2026-02-18 at 20.03.05.jpeg" alt="PokeWorld Logo" class="logo-img">
+                <span>PokeWorld</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#atracoes">Atrações</a></li>
+                <li><a href="#alimentacao">Alimentação</a></li>
+                <li><a href="#ingressos">Ingressos</a></li>
+                <li><a href="#horarios">Horários</a></li>
+                <li><a href="#mapa">Mapa</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#ingressos" class="nav-cta">Comprar Ingressos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <img src="https://mgx-backend-cdn.metadl.com/generate/images/897243/2026-02-18/aec562c4-182e-4c79-b241-a101673d08aa.png" alt="PokeWorld Adventure Park Entrance" class="hero-bg">
+        <div class="hero-content">
+            <div class="hero-badge">🎮 Parque Temático Pokémon</div>
+            <h1>PokeWorld<br><span>Adventure Park</span></h1>
+            <p>Embarque em uma aventura inesquecível no maior parque temático Pokémon do Brasil! Diversão garantida para toda a família.</p>
+            <div class="hero-buttons">
+                <a href="#ingressos" class="btn btn-primary">Comprar Ingressos</a>
+                <a href="#atracoes" class="btn btn-secondary">Ver Atrações</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <strong>20+</strong>
+                    <span>Atrações</span>
+                </div>
+                <div class="stat">
+                    <strong>8</strong>
+                    <span>Zonas Temáticas</span>
+                </div>
+                <div class="stat">
+                    <strong>100%</strong>
+                    <span>Diversão</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#sobre">
+                <div class="scroll-indicator">
+                    <span></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section class="section sobre" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Conheça o Parque</span>
+                <h2>Sobre o PokeWorld</h2>
+                <p class="section-subtitle">Uma experiência mágica que une o universo Pokémon com a emoção de um parque de diversões</p>
+            </div>
+            <div class="sobre-grid">
+                <div class="sobre-card animate-on-scroll">
+                    <div class="sobre-icon">⚡</div>
+                    <h3>Zona Elétrica</h3>
+                    <p>Área dedicada aos Pokémon do tipo Elétrico, com atrações eletrizantes e shows de luzes comandados por Pikachu!</p>
+                </div>
+                <div class="sobre-card animate-on-scroll">
+                    <div class="sobre-icon">🔥</div>
+                    <h3>Zona de Fogo</h3>
+                    <p>Sinta a adrenalina nas montanhas-russas temáticas de Charizard, com efeitos especiais de fogo e calor!</p>
+                </div>
+                <div class="sobre-card animate-on-scroll">
+                    <div class="sobre-icon">💧</div>
+                    <h3>Zona Aquática</h3>
+                    <p>Refresque-se no parque aquático do Squirtle, com toboáguas, piscinas de ondas e muito mais!</p>
+                </div>
+                <div class="sobre-card animate-on-scroll">
+                    <div class="sobre-icon">🌿</div>
+                    <h3>Zona da Natureza</h3>
+                    <p>Explore trilhas ecológicas com Pokémon do tipo Planta, jardins temáticos e áreas de descanso ao ar livre.</p>
+                </div>
+                <div class="sobre-card animate-on-scroll">
+                    <div class="sobre-icon">🔮</div>
+                    <h3>Zona Psíquica</h3>
+                    <p>Entre no mundo misterioso dos Pokémon Psíquicos! Labirintos de espelhos, simuladores de realidade virtual com Mewtwo e atrações sensoriais incríveis.</p>
+                </div>
+                <div class="sobre-card animate-on-scroll">
+                    <div class="sobre-icon">🍔</div>
+                    <h3>Praça de Alimentação</h3>
+                    <p>Delicie-se com comidas temáticas: Pikachu Pancakes, Pokébola Burgers e muito mais!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Atrações Section -->
+    <section class="section atracoes" id="atracoes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Diversão Garantida</span>
+                <h2>Nossas Atrações Destaques</h2>
+                <p class="section-subtitle">Conheça as atrações mais incríveis do PokeWorld Adventure Park</p>
+            </div>
+            <div class="atracoes-grid">
+                <div class="atracao-card animate-on-scroll">
+                    <div class="atracao-img-wrapper">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/897243/2026-02-18/e2cfee82-cb38-44fa-8ac6-dbd8bec2ce9b.png" alt="Montanha-Russa Charizard" loading="lazy">
+                        <div class="atracao-badge extreme">Radical</div>
+                    </div>
+                    <div class="atracao-info">
+                        <h3>Montanha-Russa Charizard</h3>
+                        <p>A montanha-russa mais radical do parque! Suba a 60 metros de altura e desça a 120 km/h com efeitos de fogo reais. Duração: 3 minutos de pura adrenalina!</p>
+                        <div class="atracao-details">
+                            <span class="detail"><strong>Altura mín:</strong> 1,40m</span>
+                            <span class="detail"><strong>Intensidade:</strong> ⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="atracao-card animate-on-scroll">
+                    <div class="atracao-img-wrapper">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/897243/2026-02-18/660df920-bf20-4b52-8191-4eb14d5ab5c9.png" alt="Roda-Gigante Pokébola" loading="lazy">
+                        <div class="atracao-badge family">Família</div>
+                    </div>
+                    <div class="atracao-info">
+                        <h3>Roda-Gigante Pokébola</h3>
+                        <p>A icônica roda-gigante em formato de Pokébola com 50 metros de altura! Vista panorâmica de todo o parque com cabines climatizadas e iluminação especial à noite.</p>
+                        <div class="atracao-details">
+                            <span class="detail"><strong>Altura mín:</strong> Livre</span>
+                            <span class="detail"><strong>Intensidade:</strong> ⭐⭐</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="atracao-card animate-on-scroll">
+                    <div class="atracao-img-wrapper">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/897243/2026-02-18/8975192e-83ca-46bc-a854-4b8427a328ba.png" alt="Parque Aquático Squirtle" loading="lazy">
+                        <div class="atracao-badge water">Aquático</div>
+                    </div>
+                    <div class="atracao-info">
+                        <h3>Parque Aquático Squirtle</h3>
+                        <p>Refresque-se nos toboáguas gigantes, piscina de ondas e canhões de água! Área infantil com playground aquático e rio lento para relaxar.</p>
+                        <div class="atracao-details">
+                            <span class="detail"><strong>Altura mín:</strong> Livre*</span>
+                            <span class="detail"><strong>Intensidade:</strong> ⭐⭐⭐</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="atracao-card animate-on-scroll">
+                    <div class="atracao-img-wrapper">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/897243/2026-02-18/86a66177-a5ce-46de-ac48-12f9e6946858.png" alt="Praça de Alimentação Pokémon" loading="lazy">
+                        <div class="atracao-badge food">Gastronomia</div>
+                    </div>
+                    <div class="atracao-info">
+                        <h3>Praça de Alimentação Pokémon</h3>
+                        <p>Experimente pratos temáticos incríveis! Pikachu Pancakes, Pokébola Burgers, Jigglypuff Cotton Candy e muito mais. Opções para todos os gostos!</p>
+                        <div class="atracao-details">
+                            <span class="detail"><strong>Capacidade:</strong> 500 pessoas</span>
+                            <span class="detail"><strong>Tipo:</strong> 🍕🍔🍦🧁</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alimentação Section -->
+    <section class="section alimentacao" id="alimentacao">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sabores Pokémon</span>
+                <h2>Alimentação e Cardápio</h2>
+                <p class="section-subtitle">Delicie-se com pratos temáticos inspirados no universo Pokémon!</p>
+            </div>
+            <div class="alimentacao-content">
+                <div class="alimentacao-img animate-on-scroll">
+                    <img src="cardapio.jpeg" alt="Cardápio PokeWorld" loading="lazy">
+                </div>
+                <div class="alimentacao-info animate-on-scroll">
+                    <h3>🍽️ Nosso Cardápio Temático</h3>
+                    <p>A Praça de Alimentação do PokeWorld conta com diversos restaurantes e lanchonetes temáticas, cada um inspirado em um tipo de Pokémon diferente!</p>
+                    
+                    <div class="menu-categories">
+                        <div class="menu-category">
+                            <div class="menu-category-icon">🍔</div>
+                            <div>
+                                <h4>Lanchonete Snorlax</h4>
+                                <p>Hambúrgueres artesanais, batatas fritas e milkshakes. Destaque: <strong>Pokébola Burger</strong> (R$ 32,90) - hambúrguer duplo com queijo cheddar em pão vermelho e branco.</p>
+                            </div>
+                        </div>
+                        <div class="menu-category">
+                            <div class="menu-category-icon">🍕</div>
+                            <div>
+                                <h4>Pizzaria Charmander</h4>
+                                <p>Pizzas assadas em forno a lenha com formatos especiais. Destaque: <strong>Pizza Charizard</strong> (R$ 45,90) - calabresa, jalapeño e molho picante.</p>
+                            </div>
+                        </div>
+                        <div class="menu-category">
+                            <div class="menu-category-icon">🍦</div>
+                            <div>
+                                <h4>Sorveteria Vanillite</h4>
+                                <p>Sorvetes artesanais com sabores exclusivos. Destaque: <strong>Sundae Pikachu</strong> (R$ 18,90) - sorvete de baunilha com calda de maracujá e orelhinhas de chocolate.</p>
+                            </div>
+                        </div>
+                        <div class="menu-category">
+                            <div class="menu-category-icon">🥤</div>
+                            <div>
+                                <h4>Café Eevee</h4>
+                                <p>Bebidas quentes e frias com arte latte temática. Destaque: <strong>Poção Mágica</strong> (R$ 14,90) - suco tropical azul com brilho comestível.</p>
+                            </div>
+                        </div>
+                        <div class="menu-category">
+                            <div class="menu-category-icon">🧁</div>
+                            <div>
+                                <h4>Confeitaria Alcremie</h4>
+                                <p>Doces, bolos e cupcakes decorados. Destaque: <strong>Cupcake Jigglypuff</strong> (R$ 12,90) - cupcake rosa com cobertura de marshmallow.</p>
+                            </div>
+                        </div>
+                        <div class="menu-category">
+                            <div class="menu-category-icon">🍱</div>
+                            <div>
+                                <h4>Restaurante Meowth</h4>
+                                <p>Pratos executivos e refeições completas. Destaque: <strong>Combo Treinador</strong> (R$ 39,90) - arroz, feijão, proteína, salada e bebida.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="alimentacao-note">
+                        <p>🌱 <strong>Opções especiais:</strong> Todos os restaurantes oferecem opções vegetarianas, veganas e sem glúten. Cardápio kids disponível com brindes Pokémon!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ingressos Section -->
+    <section class="section ingressos" id="ingressos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Garanta o Seu</span>
+                <h2>Ingressos e Preços</h2>
+                <p class="section-subtitle">Escolha o ingresso ideal para sua aventura Pokémon</p>
+            </div>
+            <div class="ingressos-grid">
+                <div class="ingresso-card animate-on-scroll">
+                    <div class="ingresso-header">
+                        <div class="ingresso-icon">🎫</div>
+                        <h3>Infantil</h3>
+                        <p class="ingresso-desc">Crianças de 3 a 12 anos</p>
+                    </div>
+                    <div class="ingresso-price">
+                        <span class="currency">R$</span>
+                        <span class="value">89</span>
+                        <span class="period">,90</span>
+                    </div>
+                    <ul class="ingresso-features">
+                        <li>✅ Acesso a todas as zonas</li>
+                        <li>✅ Atrações infantis ilimitadas</li>
+                        <li>✅ Parque aquático incluso</li>
+                        <li>✅ Show de Pokémon ao vivo</li>
+                        <li>❌ Atrações radicais</li>
+                        <li>❌ Acesso VIP</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-outline">Comprar</a>
+                </div>
+                <div class="ingresso-card featured animate-on-scroll">
+                    <div class="ingresso-popular">⭐ Mais Popular</div>
+                    <div class="ingresso-header">
+                        <div class="ingresso-icon">🎟️</div>
+                        <h3>Adulto</h3>
+                        <p class="ingresso-desc">A partir de 13 anos</p>
+                    </div>
+                    <div class="ingresso-price">
+                        <span class="currency">R$</span>
+                        <span class="value">149</span>
+                        <span class="period">,90</span>
+                    </div>
+                    <ul class="ingresso-features">
+                        <li>✅ Acesso a todas as zonas</li>
+                        <li>✅ Todas as atrações</li>
+                        <li>✅ Parque aquático incluso</li>
+                        <li>✅ Show de Pokémon ao vivo</li>
+                        <li>✅ Atrações radicais</li>
+                        <li>❌ Acesso VIP</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-primary">Comprar</a>
+                </div>
+                <div class="ingresso-card animate-on-scroll">
+                    <div class="ingresso-header">
+                        <div class="ingresso-icon">👨‍👩‍👧‍👦</div>
+                        <h3>Família</h3>
+                        <p class="ingresso-desc">2 adultos + 2 crianças</p>
+                    </div>
+                    <div class="ingresso-price">
+                        <span class="currency">R$</span>
+                        <span class="value">399</span>
+                        <span class="period">,90</span>
+                    </div>
+                    <ul class="ingresso-features">
+                        <li>✅ Acesso a todas as zonas</li>
+                        <li>✅ Todas as atrações</li>
+                        <li>✅ Parque aquático incluso</li>
+                        <li>✅ Show de Pokémon ao vivo</li>
+                        <li>✅ Atrações radicais</li>
+                        <li>✅ Acesso VIP + fura-fila</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-outline">Comprar</a>
+                </div>
+            </div>
+            <div class="ingressos-note">
+                <p>💡 <strong>Dica:</strong> Crianças menores de 3 anos não pagam! Estacionamento gratuito para todos os visitantes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Horários Section -->
+    <section class="section horarios" id="horarios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Planeje sua Visita</span>
+                <h2>Horário de Funcionamento</h2>
+                <p class="section-subtitle">Confira nossos horários e programe o melhor dia para sua aventura</p>
+            </div>
+            <div class="horarios-content">
+                <div class="horarios-table-wrapper animate-on-scroll">
+                    <table class="horarios-table">
+                        <thead>
+                            <tr>
+                                <th>Dia</th>
+                                <th>Abertura</th>
+                                <th>Fechamento</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Segunda-feira</strong></td>
+                                <td colspan="2" class="closed-text">Fechado para manutenção</td>
+                                <td><span class="status-badge closed">Fechado</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Terça-feira</strong></td>
+                                <td>10:00</td>
+                                <td>20:00</td>
+                                <td><span class="status-badge open">Aberto</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Quarta-feira</strong></td>
+                                <td>10:00</td>
+                                <td>20:00</td>
+                                <td><span class="status-badge open">Aberto</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Quinta-feira</strong></td>
+                                <td>10:00</td>
+                                <td>20:00</td>
+                                <td><span class="status-badge open">Aberto</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Sexta-feira</strong></td>
+                                <td>10:00</td>
+                                <td>22:00</td>
+                                <td><span class="status-badge open">Aberto</span></td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td><strong>Sábado</strong></td>
+                                <td>09:00</td>
+                                <td>23:00</td>
+                                <td><span class="status-badge open">Aberto</span></td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td><strong>Domingo</strong></td>
+                                <td>09:00</td>
+                                <td>22:00</td>
+                                <td><span class="status-badge open">Aberto</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="horarios-info animate-on-scroll">
+                    <div class="info-card">
+                        <div class="info-icon">🎆</div>
+                        <h4>Horário Especial</h4>
+                        <p>Em feriados e férias escolares, o parque funciona em horário estendido: <strong>09:00 às 00:00</strong></p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🌙</div>
+                        <h4>Noite Pokémon</h4>
+                        <p>Toda sexta e sábado, a partir das 19h, acontece o <strong>Show Noturno de Luzes Pokémon</strong> com fogos de artifício!</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">☀️</div>
+                        <h4>Temporada de Verão</h4>
+                        <p>De dezembro a março, o <strong>Parque Aquático Squirtle</strong> funciona com horário estendido até as 21h!</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">⚠️</div>
+                        <h4>Importante</h4>
+                        <p>A bilheteria fecha <strong>2 horas antes</strong> do encerramento. Última entrada permitida 1h antes do fechamento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa Section -->
+    <section class="section mapa" id="mapa">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Explore o Parque</span>
+                <h2>Mapa do Parque</h2>
+                <p class="section-subtitle">Conheça todas as áreas e planeje seu roteiro de aventura</p>
+            </div>
+            <div class="mapa-content animate-on-scroll">
+                <div class="mapa-img-wrapper">
+                    <img src="mapa.jpeg" alt="Mapa do PokeWorld Adventure Park" loading="lazy">
+                </div>
+                <div class="mapa-legend">
+                    <h3>Zonas do Parque</h3>
+                    <div class="legend-items">
+                        <div class="legend-item">
+                            <span class="legend-color" style="background: #FF4444;"></span>
+                            <div>
+                                <strong>Zona de Fogo</strong>
+                                <p>Montanha-Russa Charizard, Vulcão de Magma, Carrossel Flareon</p>
+                            </div>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background: #4488FF;"></span>
+                            <div>
+                                <strong>Zona Aquática</strong>
+                                <p>Parque Aquático Squirtle, Rio Lento Vaporeon, Splash Mountain Gyarados</p>
+                            </div>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background: #FFCB05;"></span>
+                            <div>
+                                <strong>Zona Elétrica</strong>
+                                <p>Pikachu Thunder Coaster, Roda-Gigante Pokébola, Bumper Cars Voltorb</p>
+                            </div>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background: #4CAF50;"></span>
+                            <div>
+                                <strong>Zona da Natureza</strong>
+                                <p>Trilha Bulbasaur, Jardim Eevee, Safari Pokémon, Playground Infantil</p>
+                            </div>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background: #9C27B0;"></span>
+                            <div>
+                                <strong>Zona Psíquica</strong>
+                                <p>Labirinto Mewtwo, Simulador Alakazam, VR Experience Gardevoir</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section class="section contato" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Fale Conosco</span>
+                <h2>Contato e Localização</h2>
+                <p class="section-subtitle">Entre em contato ou venha nos visitar!</p>
+            </div>
+            <div class="contato-grid">
+                <div class="contato-form-wrapper animate-on-scroll">
+                    <h3>Envie sua Mensagem</h3>
+                    <form class="contato-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="assunto">Assunto</label>
+                            <select id="assunto" name="assunto" required>
+                                <option value="">Selecione um assunto</option>
+                                <option value="ingressos">Ingressos</option>
+                                <option value="atracoes">Atrações</option>
+                                <option value="eventos">Eventos e Festas</option>
+                                <option value="reclamacao">Reclamação</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                    </form>
+                </div>
+                <div class="contato-info-wrapper animate-on-scroll">
+                    <h3>Informações</h3>
+                    <div class="contato-info-cards">
+                        <div class="contato-info-card">
+                            <div class="contato-info-icon">📍</div>
+                            <div>
+                                <strong>Endereço</strong>
+                                <p>Av.joao paulo II, 267 - Pallet Town<br>Belem PA, 01000-000</p>
+                            </div>
+                        </div>
+                        <div class="contato-info-card">
+                            <div class="contato-info-icon">📞</div>
+                            <div>
+                                <strong>Telefone</strong>
+                                <p>(11) 4002-8922<br>(11) 99999-1234</p>
+                            </div>
+                        </div>
+                        <div class="contato-info-card">
+                            <div class="contato-info-icon">📧</div>
+                            <div>
+                                <strong>E-mail</strong>
+                                <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="84e7ebeaf0e5f0ebc4f4ebefe1f3ebf6e8e0f4e5f6efaae7ebe9aae6f6">[email&#160;protected]</a><br><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="670e09001502141408142717080c021008150b031706150c4904080a490515">[email&#160;protected]</a></p>
+                            </div>
+                        </div>
+                        <div class="contato-info-card">
+                            <div class="contato-info-icon">🌐</div>
+                            <div>
+                                <strong>Redes Sociais</strong>
+                                <p>@pokeworldpark</p>
+                                <div class="social-links">
+                                    <a href="#" class="social-link" title="Instagram">📸</a>
+                                    <a href="#" class="social-link" title="Facebook">👍</a>
+                                    <a href="#" class="social-link" title="Twitter">🐦</a>
+                                    <a href="#" class="social-link" title="YouTube">▶️</a>
+                                    <a href="#" class="social-link" title="TikTok">🎵</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contato-map">
+                        <img src="WhatsApp Image 2026-02-18 at 20.03.05.jpeg" alt="Localização PokeWorld" class="map-placeholder">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="WhatsApp Image 2026-02-18 at 20.03.05.jpeg" alt="PokeWorld Logo" class="footer-logo-img">
+                        <span>PokeWorld Adventure Park</span>
+                    </div>
+                    <p>O maior parque temático Pokémon do Brasil. Uma experiência mágica para toda a família!</p>
+                </div>
+                <div class="footer-links-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre o Parque</a></li>
+                        <li><a href="#atracoes">Atrações</a></li>
+                        <li><a href="#alimentacao">Alimentação</a></li>
+                        <li><a href="#ingressos">Ingressos</a></li>
+                        <li><a href="#horarios">Horários</a></li>
+                        <li><a href="#mapa">Mapa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-section">
+                    <h4>Informações</h4>
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">FAQ - Perguntas Frequentes</a></li>
+                        <li><a href="#">Acessibilidade</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="footer-social">
+                        <a href="#" title="Instagram">📸 Instagram</a>
+                        <a href="#" title="Facebook">👍 Facebook</a>
+                        <a href="#" title="Twitter">🐦 Twitter</a>
+                        <a href="#" title="YouTube">▶️ YouTube</a>
+                        <a href="#" title="TikTok">🎵 TikTok</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-divider"></div>
+                <p>© 2026 PokeWorld Adventure Park - Trabalho Escolar</p>
+                <p class="footer-credits">Desenvolvido com ❤️ por nossa equipe | Projeto acadêmico</p>
+                <p class="footer-disclaimer">⚠️ Este é um projeto fictício criado para fins educacionais. Pokémon é marca registrada da Nintendo/Game Freak/Creatures Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">↑</button>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./script.js"></script>
+</body>
+
+</html>
